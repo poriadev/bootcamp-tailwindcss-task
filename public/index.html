@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/img/tailwind-css.svg" type="image/x-icon">
+    <title>سبد خرید | تیلویند</title>
+    <link rel="stylesheet" href="build/tailwind.css">
+</head>
+
+<body class="pt-24">
+    <h1 class="text-center text-xl text-secondary-800 font-black">سبد دوره های شما</h1>
+    <main class="max-w-screen-xl xl:mx-auto grid grid-cols-1 md:grid-cols-5 lg:grid-cols-3 items-start md:gap-x-10 m-6 mt-8">
+        <!-- Products -->
+        <div class="md:col-span-3 lg:col-span-2 grid grid-cols-1 lg:grid-cols-2 gap-5">
+            <div class="flex p-3.5 rounded-[20px] shadow-box gap-3">
+                <img class="w-32 h-24 object-cover rounded-lg" src="assets/img/course-img.jpg" alt="ReactJs">
+                <div class="flex-auto flex flex-col justify-center gap-3">
+                    <!-- info -->
+                    <div>
+                        <h2 class="text-sm text-secondary-900 font-extrabold">دوره حرفه‌ای متخصص ری‌اکت</h2>
+                        <!-- datails -->
+                        <div class="hidden">
+                            <div>
+                                <img src="assets/img/Clock.svg">
+                                <span>45 ساعت</span>
+                            </div>
+                            <div>
+                                <img src="assets/img/Clock.svg">
+                                <span>+1300 دانشجو</span>
+                            </div>
+                            <div>
+                                <img src="assets/img/Presentation.svg">
+                                <span>270 جلسه</span>
+                            </div>
+                            <div>
+                                <img src="assets/img/cup.svg">
+                                <span>چالش های هفتگی</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- payment -->
+                    <div>
+                        <!-- teacher -->
+                        <div class="hidden">
+                            <img src="#" alt="">
+                            <div>
+                                <span>مدرس دوره</span>
+                                <span>صاحب محمدی</span>
+                            </div>
+                        </div>
+
+                        <!-- price / removeBtn -->
+                        <div class="flex flex-wrap items-center justify-between">
+                            <div class="flex items-baseline gap-1.5">
+                                <span class="text-lg text-primary font-extrabold">6,298,000</span>
+                                <span class="text-xs text-[#36385380] font-semibold">تومان</span>
+                            </div>
+                            <button class="w-8 h-8 flex justify-center items-center border border-[#DFDFE580] rounded-xl">
+                                <img src="assets/img/Trash-2.svg">
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="flex p-3.5 rounded-[20px] shadow-box gap-3">
+                <img class="w-32 h-24 object-cover rounded-lg" src="assets/img/vue-course-img.jpg" alt="ReactJs">
+                <div class="flex-auto flex flex-col justify-center gap-3">
+                    <!-- info -->
+                    <div>
+                        <h2 class="text-sm text-secondary-900 font-extrabold">دوره حرفه‌ای متخصص ویو</h2>
+                        <!-- datails -->
+                        <div class="hidden">
+                            <div>
+                                <img src="assets/img/Clock.svg">
+                                <span>45 ساعت</span>
+                            </div>
+                            <div>
+                                <img src="assets/img/Clock.svg">
+                                <span>+1300 دانشجو</span>
+                            </div>
+                            <div>
+                                <img src="assets/img/Presentation.svg">
+                                <span>270 جلسه</span>
+                            </div>
+                            <div>
+                                <img src="assets/img/cup.svg">
+                                <span>چالش های هفتگی</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- payment -->
+                    <div>
+                        <!-- teacher -->
+                        <div class="hidden">
+                            <img src="#" alt="">
+                            <div>
+                                <span>مدرس دوره</span>
+                                <span>صاحب محمدی</span>
+                            </div>
+                        </div>
+
+                        <!-- price / removeBtn -->
+                        <div class="flex flex-wrap items-center justify-between">
+                            <div class="flex items-baseline gap-1.5">
+                                <span class="text-lg text-primary font-extrabold">5,968,000</span>
+                                <span class="text-xs text-[#36385380] font-semibold">تومان</span>
+                            </div>
+                            <button class="w-8 h-8 flex justify-center items-center border border-[#DFDFE580] rounded-xl">
+                                <img src="assets/img/Trash-2.svg">
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Payment -->
+        <div class="md:col-span-2 lg:col-span-1 rounded-[20px] shadow-box mt-16 md:mt-0 py-8">
+            <!-- header -->
+            <div class="flex gap-2.5 px-8 pb-6 border-b border-[#DFDFE580]">
+                <img src="assets/img/receipt-text.svg">
+                <span class="text-lg text-secondary-800 font-black">پرداخت</span>
+            </div>
+            <div class="py-6 px-8 space-y-5 border-b border-dashed border-[#DFDFE580]">
+                <div class="flex items-baseline justify-between">
+                    <span class="text-sm text-secondary-700 font-bold">جمع دوره ها</span>
+                    <span class="text-base text-primary font-bold">4,250,000 +</span>
+                </div>
+                <div class="flex items-baseline justify-between">
+                    <span class="text-sm text-secondary-700 font-bold">تخفیف ها</span>
+                    <span class="text-base text-[#FF0000CC] font-bold">750,000 -</span>
+                </div>
+            </div>
+            <div class="px-7 text-center">
+                <button class="text-sm text-secondary-700 font-semibold my-6">کد تخفیف دارم!</button>
+                <a class="flex items-baseline justify-center w-full p-4 bg-primary rounded-[20px] text-lg text-white" href="#">
+                    <span class="font-medium ml-2">پرداخت</span>
+                    <span class="font-extrabold ml-1">3,500,000</span>
+                    <span class="text-xs font-medium">تومان</span>
+                </a>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html
